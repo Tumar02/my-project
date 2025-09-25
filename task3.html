@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Онлайн кафе 🍔</h1>
+    <div class="form">
+        <input type="text" id="name" placeholder="Введите имя">
+        <select id="dish">
+            <option value="сoffe">Кофе☕</option>
+            <option value="tea">Чай🍵</option>
+            <option value="burger">Бургер🍔</option>
+            <option value="pizza">Пицца🍕</option>
+        </select>
+        <input type="number" id="count" min="1" placeholder="Укажите колличество">
+        <button id="orderBtn">Сделать заказ</button>
+    </div>
+
+    <h2 id="status">Заказов пока нет</h2>
+    <h3 id="total">Общая сумма: 0 сом</h3>
+
+    <script src="index.js"></script>
+</body>
+</html>
